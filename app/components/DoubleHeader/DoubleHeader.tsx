@@ -7,17 +7,15 @@ import classes from './DoubleHeader.module.css';
 import Image from 'next/image'
 
 const userLinks = [
-  { link: '#', label: 'Privacy & Security' },
-  { link: '#', label: 'Account settings' },
-  { link: '#', label: 'Support options' },
+  { link: '#', label: 'Calendar' },
+  { link: '#', label: 'Tournament Results' },
 ];
 
 const mainLinks = [
-  { link: '#', label: 'Book a demo' },
-  { link: '#', label: 'Documentation' },
-  { link: '#', label: 'Community' },
-  { link: '#', label: 'Academy' },
-  { link: '#', label: 'Forums' },
+  { link: '#', label: 'Home' },
+  { link: '#', label: 'Roster' },
+  { link: '#', label: 'Photo Gallery' },
+  { link: '#', label: 'Contact' },
 ];
 
 export function DoubleHeader() {
