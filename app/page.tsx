@@ -1,3 +1,7 @@
+import { DoubleHeader } from "./components/DoubleHeader/DoubleHeader";
+
 export default function HomePage() {
-  return <div>Home page</div>;
+  return <>
+    <DoubleHeader />
+  </>;
 }
