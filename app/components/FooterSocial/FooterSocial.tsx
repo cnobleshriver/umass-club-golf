@@ -7,7 +7,7 @@ export function FooterSocial() {
   return (
     <div className={classes.footer}>
       <Container className={classes.inner}>
-        <Image src='/swingingsam.png' width={29} height={50} alt="Swinging Sam" />
+        <Image src='/umasslogo.png' width={120} height={40} alt="Swinging Sam" />
         <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
           <ActionIcon size="lg" color="gray" variant="subtle">
             <IconBrandInstagram style={{ width: rem(18), height: rem(18) }} stroke={1.5} />
