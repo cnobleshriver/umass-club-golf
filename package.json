@@ -7,9 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "predeploy": "yarn run build && yarn run export",
-    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@mantine/core": "7.3.2",
