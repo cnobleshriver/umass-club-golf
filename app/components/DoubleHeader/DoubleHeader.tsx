@@ -2,7 +2,7 @@
 
 import "@mantine/core/styles.css";
 import { useState } from 'react';
-import { Container, Anchor, Group, Burger, Box } from '@mantine/core';
+import { Container, Group, Burger, Box } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import classes from './DoubleHeader.module.css';
 import Image from 'next/image';
