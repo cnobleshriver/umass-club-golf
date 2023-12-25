@@ -25,6 +25,7 @@
   }
   
   .mainLink {
+    text-decoration: none;
     text-transform: uppercase;
     font-size: var(--mantine-font-size-xs);
     color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
@@ -47,6 +48,7 @@
   }
   
   .secondaryLink {
+    text-decoration: none;
     color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
     font-size: var(--mantine-font-size-xs);
     text-transform: uppercase;

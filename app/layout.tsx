@@ -2,6 +2,8 @@ import "@mantine/core/styles.css";
 import React from "react";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../theme";
+import { DoubleHeader } from "./components/DoubleHeader/DoubleHeader";
+import { FooterSocial } from "./components/FooterSocial/FooterSocial";
 
 export const metadata = {
   title: "UMass Club Golf",
@@ -20,7 +22,11 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>{children}</MantineProvider>
+        <MantineProvider theme={theme}>
+          <DoubleHeader />
+          {children}
+          <FooterSocial />
+        </MantineProvider>
       </body>
     </html>
   );
