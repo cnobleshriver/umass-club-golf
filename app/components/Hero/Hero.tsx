@@ -12,7 +12,7 @@ export function Hero() {
             />
             <Container className={classes.container} size="md">
                 <div className={classes.imageContainer}>
-                    <Image src="/swingingsam.png" alt="UMass" fill />
+                    <Image src="/swingingsam.png" alt="UMass" fill style={{objectFit: "contain"}}/>
                 </div>
                 {/* <Title className={classes.title}>Club Golf</Title> */}
             </Container>

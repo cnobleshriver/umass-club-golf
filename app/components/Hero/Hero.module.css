@@ -24,8 +24,9 @@
 
   .imageContainer {
     position: relative;
-    width: 200px;
-    height: 600px;
+    width: 203px;
+    height: 350px;
+    object-fit: cover;
   }
   
   .title {
