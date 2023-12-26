@@ -9,14 +9,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const userLinks = [
-  { link: '#', label: 'Calendar' },
-  { link: '#', label: 'Tournament Results' },
+  { link: '#', label: 'Spring \'24 Calendar' },
 ];
 
 const mainLinks = [
   { link: '/', label: 'Home' },
   { link: '/roster', label: 'Roster' },
-  { link: '#', label: 'Photo Gallery' },
+  { link: '#', label: 'Tournament Results' },
   { link: '#', label: 'Contact' },
 ];
 

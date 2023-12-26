@@ -1,9 +1,9 @@
 import "@mantine/core/styles.css";
 import React from "react";
 import { MantineProvider, ColorSchemeScript } from "@mantine/core";
-import { theme } from "../theme";
-import { DoubleHeader } from "./components/DoubleHeader/DoubleHeader";
-import { FooterSocial } from "./components/FooterSocial/FooterSocial";
+import { theme } from "../../theme";
+import { DoubleHeader } from "@/components/DoubleHeader/DoubleHeader";
+import { FooterSocial } from "@/components/FooterSocial/FooterSocial";
 
 export const metadata = {
   title: "UMass Club Golf",
