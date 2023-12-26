@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: any }) {
         />
       </head>
       <body>
-        <MantineProvider theme={theme}>
+        <MantineProvider forceColorScheme="light" theme={theme}>
           <DoubleHeader />
           {children}
           <FooterSocial />
