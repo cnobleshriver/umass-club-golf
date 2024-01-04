@@ -1,7 +1,10 @@
+import { TableScrollArea } from "@/components/TableScrollArea/TableScrollArea";
+
 export default function ResultsPage() {
+
   return (
     <>
-        <h1>Results will be posted here</h1>
+      <TableScrollArea />
     </>
   );
 }
