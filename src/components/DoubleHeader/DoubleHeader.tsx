@@ -13,8 +13,8 @@ const userLinks = [{ link: "#", label: "Spring '24 Calendar" }];
 const mainLinks = [
   { link: "/", label: "Home" },
   { link: "/roster", label: "Roster" },
-  { link: "#", label: "Tournament Results" },
-  { link: "#", label: "Contact" },
+  { link: "/results", label: "Tournament Results" },
+  { link: "/contact", label: "Contact" },
 ];
 
 export function DoubleHeader() {

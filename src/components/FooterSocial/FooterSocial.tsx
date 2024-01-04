@@ -9,7 +9,7 @@ export function FooterSocial() {
       <Container className={classes.inner}>
         <Image src='/umasslogo.png' width={120} height={40} alt="Swinging Sam" />
         <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
-          <ActionIcon size="lg" color="gray" variant="subtle">
+          <ActionIcon component="a" href='https://www.instagram.com/umassclubgolf/' size="lg" color="gray" variant="subtle">
             <IconBrandInstagram style={{ width: rem(18), height: rem(18) }} stroke={1.5} />
           </ActionIcon>
         </Group>
