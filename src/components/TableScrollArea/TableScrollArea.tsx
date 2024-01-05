@@ -71,7 +71,7 @@ export function TableScrollArea() {
 
   return (
     <ScrollArea h='80vh' onScrollPositionChange={({ y }) => setScrolled(y !== 0)}>
-      <Table miw={700} verticalSpacing='lg'>
+      <Table miw={700} verticalSpacing='lg' highlightOnHover>
         <Table.Thead className={cx(classes.header, { [classes.scrolled]: scrolled })}>
           <Table.Tr>
             <Table.Th>Tournament Name</Table.Th>
