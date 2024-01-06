@@ -8,7 +8,7 @@ import classes from "./DoubleHeader.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const userLinks = [{ link: "#", label: "Spring '24 Calendar" }];
+const userLinks = [{ link: "/calendar", label: "Spring '24 Calendar" }];
 
 const mainLinks = [
   { link: "/", label: "Home" },
