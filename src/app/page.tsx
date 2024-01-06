@@ -9,11 +9,15 @@ export default function HomePage() {
         <h2>About Us</h2>
         <div className={styles.aboutText}>
           <p>
-            Rooted in the University of Massachusetts, our team is more than
-            just a group of golf enthusiasts. Chartered in 1987, we've grown
+            Chartered in 1987 at the University of Massachusetts, we've grown
             from a small group of golfing students to a prominent club known for
             our sportsmanship, teamwork, and dedication to promoting golf within
-            the university.
+            the university. Our team currently participates in the National
+            Collegiate Club Golf Association (NCCGA) New England Region
+            competitions. These tournaments offer our team members an incredible
+            opportunity to showcase their skills, compete at a high level, and
+            represent UMass among other top collegiate club golf teams in the
+            region.
           </p>
         </div>
       </section>
