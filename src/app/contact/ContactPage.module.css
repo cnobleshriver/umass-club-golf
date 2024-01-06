@@ -1,0 +1,34 @@
+.container {
+    font-family: Arial, sans-serif;
+    color: #282828;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .container h1 {
+    color: #881111; /* Dark red color to match the theme */
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  .contactCard {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center; /* Add this line */
+  }
+  
+  .contactCard h2 {
+    color: #881111; /* Dark red color to match the theme */
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .contactCard p {
+    color: #282828;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
