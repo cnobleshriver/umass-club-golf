@@ -26,7 +26,7 @@ const roster = [
     major: "Operations & Information Management",
   },
   {
-    name: "Gabe Shulefand",
+    name: "Gabe Schulefand",
     location: "Buffalo, NY",
     image: "",
     year: "Senior",
