@@ -30,7 +30,7 @@ const roster = [
     location: "Buffalo, NY",
     image: "",
     year: "Senior",
-    major: "Sport Management",
+    major: "OIM & Sport Management",
   },
   {
     name: "Chris Pietrini",
