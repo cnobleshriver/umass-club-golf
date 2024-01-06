@@ -43,10 +43,11 @@ export function DoubleHeader() {
     <header className={classes.header}>
       <Container className={classes.inner}>
         <Image
-          src="/umasslogo.png"
+          src="/cg-logo.png"
           width={120}
-          height={40}
+          height={60}
           alt="UMass Club Golf"
+          className={classes.logoImage}
         />
         <Box className={classes.links} visibleFrom="sm">
           <Group justify="flex-end">{secondaryItems}</Group>
