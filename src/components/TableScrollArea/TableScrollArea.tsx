@@ -70,20 +70,22 @@ export function TableScrollArea() {
   ));
 
   return (
-    <ScrollArea h='80vh' onScrollPositionChange={({ y }) => setScrolled(y !== 0)}>
-      <Table miw={700} verticalSpacing='lg' highlightOnHover>
-        <Table.Thead className={cx(classes.header, { [classes.scrolled]: scrolled })}>
-          <Table.Tr>
-            <Table.Th>Tournament Name</Table.Th>
-            <Table.Th>Course</Table.Th>
-            <Table.Th>Location</Table.Th>
-            <Table.Th>Date</Table.Th>
-            <Table.Th>Finish</Table.Th>
-            <Table.Th>Team Score</Table.Th>
-          </Table.Tr>
-        </Table.Thead>
-        <Table.Tbody>{rows}</Table.Tbody>
-      </Table>
-    </ScrollArea>
+    <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+      <ScrollArea h='80vh' onScrollPositionChange={({ y }) => setScrolled(y !== 0)}>
+        <Table miw={700} verticalSpacing='lg' highlightOnHover>
+          <Table.Thead className={cx(classes.header, { [classes.scrolled]: scrolled })}>
+            <Table.Tr>
+              <Table.Th>Tournament Name</Table.Th>
+              <Table.Th>Course</Table.Th>
+              <Table.Th>Location</Table.Th>
+              <Table.Th>Date</Table.Th>
+              <Table.Th>Finish</Table.Th>
+              <Table.Th>Team Score</Table.Th>
+            </Table.Tr>
+          </Table.Thead>
+          <Table.Tbody>{rows}</Table.Tbody>
+        </Table>
+      </ScrollArea>
+    </div>
   );
 }

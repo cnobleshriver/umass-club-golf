@@ -6,7 +6,7 @@
   }
   
   .container h1 {
-    color: #881111; /* Dark red color to match the theme */
+    color: #881111;
     font-size: 2em;
     margin-bottom: 1em;
     text-align: center;
@@ -18,11 +18,13 @@
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
-    text-align: center; /* Add this line */
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
   }
   
   .contactCard h2 {
-    color: #881111; /* Dark red color to match the theme */
+    color: #881111;
     font-size: 1.5em;
     margin-bottom: 0.5em;
   }
