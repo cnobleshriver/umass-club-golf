@@ -68,6 +68,13 @@ const roster = [
     major: "Molecular Biology & Biochemistry",
   },
   {
+    name: "Jack Sorensen",
+    location: "Georgetown, MA",
+    image: "",
+    year: "Junior",
+    major: "Hospitality & Tourism Management",
+  },
+  {
     name: "Jared Curran",
     location: "Plainville, MA",
     image: "",
@@ -80,13 +87,6 @@ const roster = [
     image: "",
     year: "Sophomore",
     major: "Finance",
-  },
-  {
-    name: "Jack Sorenson",
-    location: "Georgetown, MA",
-    image: "",
-    year: "Sophomore",
-    major: "Hospitality & Tourism Management",
   },
   {
     name: "Phillip le Gassick",
