@@ -111,7 +111,6 @@ export function ArticlesCardsGrid() {
       p="md"
       radius="md"
       component="a"
-      href="#"
       className={classes.card}
     >
       <AspectRatio ratio={920 / 455}>
