@@ -1,6 +1,8 @@
 import { Hero } from "@/components/Hero/Hero";
 import styles from "./HomePage.module.css";
 
+/* Website built by club member, Christian Noble Shriver, in 2023. */
+
 export default function HomePage() {
   return (
     <>
