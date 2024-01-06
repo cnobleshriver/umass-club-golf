@@ -89,6 +89,13 @@ const roster = [
     major: "Finance",
   },
   {
+    name: "Michael Guerrera",
+    location: "Farmington, CT",
+    image: "",
+    year: "Freshman",
+    major: "Chemistry",
+  },
+  {
     name: "Phillip le Gassick",
     location: "Mattapoisett, MA",
     image: "",
