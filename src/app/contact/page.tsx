@@ -16,6 +16,11 @@ const contacts = [
     name: "Mike Pietrini",
     email: "mpietrini@umass.edu",
   },
+  {
+    title: "Secretary",
+    name: "Mike Ringie",
+    email: "mringie@umass.edu",
+  },
 ];
 
 export default function ContactPage() {
