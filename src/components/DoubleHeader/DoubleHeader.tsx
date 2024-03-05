@@ -34,7 +34,7 @@ export function DoubleHeader() {
   ));
 
   const secondaryItems = userLinks.map((item) => (
-    <Link href={item.link} key={item.label} className={classes.secondaryLink}>
+    <Link href={item.link} key={item.label} className={classes.secondaryLink} target="_blank" rel="noopener noreferrer">
       {item.label}
     </Link>
   ));
