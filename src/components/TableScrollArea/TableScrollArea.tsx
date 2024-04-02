@@ -51,6 +51,24 @@ const data = [
     score: '758(+38)',
     url: 'https://hpe.golfgenius.com/pages/10042597319951560438'
   },
+  {
+    name: 'New England Regional Tournament 1',
+    course: 'North Kingstown Golf Course',
+    location: 'North Kingstown, RI',
+    date: 'Mar 23-24, 2024',
+    finish: '1st',
+    score: '762(+62)',
+    url: 'https://nccga.org/app/golf-tournaments/6620/team-leaderboard'
+  },
+  {
+    name: 'New England Regional Tournament 2',
+    course: 'Wentworth Hills Golf Club',
+    location: 'Plainville, MA',
+    date: 'Mar 30, 2024',
+    finish: '1st',
+    score: '376(+21)',
+    url: 'https://nccga.org/app/golf-tournaments/6621/team-leaderboard'
+  },
 ];
 
 export function TableScrollArea() {
