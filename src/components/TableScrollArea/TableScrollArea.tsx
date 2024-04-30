@@ -69,12 +69,41 @@ const data = [
     score: '376(+21)',
     url: 'https://nccga.org/app/golf-tournaments/6621/team-leaderboard'
   },
+  {
+    name: 'New England Regional Tournament 3',
+    course: 'Easton Country Club',
+    location: 'South Easton, MA',
+    date: 'Apr 6-7, 2024',
+    finish: '1st',
+    score: '372(+17)',
+    url: 'https://nccga.org/app/golf-tournaments/6539/team-leaderboard'
+  },
+  {
+    name: 'New England Regional Tournament 4',
+    course: 'Acushnet River Valley Golf Course',
+    location: 'Acushnet, MA',
+    date: 'Apr 13-14, 2024',
+    finish: '1st',
+    score: '739(+19)',
+    url: 'https://nccga.org/app/golf-tournaments/6539/team-leaderboard'
+  },
+  {
+    name: 'NCCGA Nationals Spring 2024',
+    course: 'WinStar World Casino and Resort, Redbud Course',
+    location: 'Thackerville, OK',
+    date: 'Apr 27-28, 2024',
+    finish: 'T7',
+    score: '380(+20)',
+    url: 'https://nccga.org/app/golf-tournaments/6539/team-leaderboard'
+  },
 ];
+
+const reversedData = [...data].reverse();
 
 export function TableScrollArea() {
   const [scrolled, setScrolled] = useState(false);
 
-  const rows = data.map((row) => (
+  const rows = reversedData.map((row) => (
     <Table.Tr key={row.name}>
       <Table.Td>
         <a href={row.url} target="_blank" rel="noopener noreferrer">{row.name}</a>
