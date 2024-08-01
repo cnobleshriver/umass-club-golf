@@ -35,14 +35,14 @@ const roster = [
   {
     name: "Christopher Pickreign",
     location: "Harvard, MA",
-    image: "headshots/pick_headshot-2.jpg",
+    image: "headshots/pick_headshot-3.jpg",
     year: "Senior",
     major: "Computer Science & Finance",
   },
   {
     name: "Christian Noble Shriver",
     location: "Rochester, MA",
-    image: "headshots/cnoble_headshot-2.jpg",
+    image: "headshots/cnoble_headshot-3.jpg",
     year: "Senior",
     major: "Computer Science",
   },
