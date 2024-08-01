@@ -12,101 +12,87 @@ import classes from "./ArticlesCardsGrid.module.css";
 
 const roster = [
   {
-    name: "Hayden Bruckner",
-    location: "Franklin, MA",
-    image: "",
-    year: "Senior",
-    major: "Molecular Biology & Biochemistry",
-  },
-  {
-    name: "Sam Robert",
-    location: "Northborough, MA",
-    image: "",
-    year: "Senior",
-    major: "Operations & Information Management",
-  },
-  {
     name: "Gabe Schulefand",
     location: "Buffalo, NY",
-    image: "",
+    image: "headshots/gabe_headshot-2.jpg",
     year: "Senior",
     major: "OIM & Sport Management",
   },
   {
     name: "Chris Pietrini",
     location: "Beverly, MA",
-    image: "",
-    year: "Junior",
+    image: "headshots/chrispie_headshot-2.jpg",
+    year: "Senior",
     major: "Psychology",
   },
   {
     name: "Mike Pietrini",
     location: "Beverly, MA",
-    image: "",
-    year: "Junior",
+    image: "headshots/mikep_headshot-1.jpg",
+    year: "Senior",
     major: "Finance",
   },
   {
     name: "Christopher Pickreign",
     location: "Harvard, MA",
-    image: "",
-    year: "Junior",
+    image: "headshots/pick_headshot-2.jpg",
+    year: "Senior",
     major: "Computer Science & Finance",
   },
   {
     name: "Christian Noble Shriver",
     location: "Rochester, MA",
-    image: "",
-    year: "Junior",
+    image: "headshots/cnoble_headshot-2.jpg",
+    year: "Senior",
     major: "Computer Science",
   },
   {
     name: "Mike Ringie",
     location: "Holliston, MA",
-    image: "",
-    year: "Junior",
+    image: "headshots/ringie_headshot-2.jpg",
+    year: "Senior",
     major: "Molecular Biology & Biochemistry",
   },
   {
     name: "Jack Sorensen",
     location: "Georgetown, MA",
-    image: "",
-    year: "Junior",
+    image: "headshots/jack_headshot-2.jpg",
+    year: "Senior",
     major: "Hospitality & Tourism Management",
   },
   {
     name: "Jared Curran",
     location: "Plainville, MA",
-    image: "",
-    year: "Sophomore",
+    image: "headshots/jared_headshot-2.jpg",
+    year: "Junior",
     major: "Finance",
   },
   {
     name: "Will Geftas",
     location: "Canton, MA",
-    image: "",
-    year: "Sophomore",
+    image: "headshots/will_headshot-1.jpg",
+    year: "Junior",
     major: "Finance",
   },
   {
     name: "Michael Guerrera",
     location: "Farmington, CT",
-    image: "",
-    year: "Freshman",
+    image: "headshots/mikeg_headshot-2.jpg",
+    year: "Sophomore",
     major: "Chemistry",
   },
   {
     name: "Phillip le Gassick",
     location: "Mattapoisett, MA",
-    image: "",
-    year: "Freshman",
+    image: "headshots/phil_headshot-1.jpg",
+    year: "Sophomore",
     major: "Accounting",
   },
   {
     name: "Markus Pierre",
     location: "Marion, MA",
-    image: "",
-    year: "Freshman",
+    image: "headshots/markus_headshot-2.jpg",
+    year: "Sophomore",
     major: "Business Management",
   },
 ];
@@ -120,7 +106,7 @@ export function ArticlesCardsGrid() {
       component="a"
       className={classes.card}
     >
-      <AspectRatio ratio={920 / 455}>
+      <AspectRatio ratio={800 / 800}>
         <Image src={article.image} alt="image" />
       </AspectRatio>
       <Text c="dimmed" size="xs" tt="uppercase" fw={700} mt="md">

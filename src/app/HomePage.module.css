@@ -30,3 +30,21 @@
     font-size: 1.2em;
     margin-bottom: 1em;
   }
+
+  .tryoutsButton {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    color: #fff;
+    background-color: #881111;
+    border: none;
+    border-radius: 0.25rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tryoutsButton:hover {
+    background-color: #994444;
+  }

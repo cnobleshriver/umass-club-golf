@@ -3,8 +3,8 @@ import styles from "./ContactPage.module.css";
 const contacts = [
   {
     title: "President",
-    name: "Sam Robert",
-    email: "samuelrobert@umass.edu",
+    name: "Mike Pietrini",
+    email: "mpietrini@umass.edu",
   },
   {
     title: "Vice President",
@@ -13,13 +13,13 @@ const contacts = [
   },
   {
     title: "Treasurer",
-    name: "Mike Pietrini",
-    email: "mpietrini@umass.edu",
+    name: "Markus Pierre",
+    email: "mlpierre@umass.edu",
   },
   {
     title: "Secretary",
-    name: "Mike Ringie",
-    email: "mringie@umass.edu",
+    name: "Jared Curran",
+    email: "jaredcurran@umass.edu",
   },
 ];
 
@@ -30,7 +30,7 @@ export default function ContactPage() {
       <div className={styles.interestForm}>
         <p>
           Interested in joining us? Fill out this{" "}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3A8HaCwtTTeQbjXEzOXKempDac8xz032IqSVK4F9q01T78A/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScS7gt2QBsnG1ztn5Lj0oh57UU9ovQicdXoxb1Omg5dvxWrBA/viewform" target="_blank" rel="noopener noreferrer">
             Interest Form
           </a>
         </p>
