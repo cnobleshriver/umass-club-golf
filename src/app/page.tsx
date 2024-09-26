@@ -8,14 +8,14 @@ export default function HomePage() {
     <>
       <Hero />
       <section className={styles.aboutSection}>
-        <a
+        {/* <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScS7gt2QBsnG1ztn5Lj0oh57UU9ovQicdXoxb1Omg5dvxWrBA/viewform"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.tryoutsButton}
         >
           2024-2025 Tryouts Sign-up
-        </a>
+        </a> */}
         <h2>About Us</h2>
         <div className={styles.aboutText}>
           <p>

@@ -8,7 +8,7 @@ import classes from "./DoubleHeader.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const userLinks = [{ link: "https://nccga.org/app/regions/new-england-region-golf-tournaments", label: "Spring '24 Calendar" }];
+const userLinks = [{ link: "https://nccga.org/app/regions/new-england-region-golf-tournaments", label: "Fall '24 Calendar" }];
 
 const mainLinks = [
   { link: "/", label: "Home" },

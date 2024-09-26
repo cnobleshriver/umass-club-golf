@@ -15,8 +15,8 @@ const roster = [
     name: "Gabe Schulefand",
     location: "Buffalo, NY",
     image: "headshots/gabe_headshot-2.jpg",
-    year: "Senior",
-    major: "OIM & Sport Management",
+    year: "Graduate Student",
+    major: "Business Analytics",
   },
   {
     name: "Chris Pietrini",
