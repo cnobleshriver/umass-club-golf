@@ -95,6 +95,27 @@ const roster = [
     year: "Sophomore",
     major: "Business Management",
   },
+  {
+    name: "Ricky Gardella IV",
+    location: "Rowley, MA",
+    image: "",
+    year: "Sophomore",
+    major: "OIM",
+  },
+  {
+    name: "James Erickson",
+    location: "Watertown, MA",
+    image: "",
+    year: "Freshman",
+    major: "Management",
+  },
+  {
+    name: "CJ Kivlehan",
+    location: "Hopedale, MA",
+    image: "",
+    year: "Freshman",
+    major: "Marketing",
+  },
 ];
 
 export function ArticlesCardsGrid() {
