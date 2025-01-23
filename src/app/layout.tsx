@@ -6,7 +6,7 @@ import { DoubleHeader } from "@/components/DoubleHeader/DoubleHeader";
 import { FooterSocial } from "@/components/FooterSocial/FooterSocial";
 
 export const metadata = {
-  title: "UMass Club Golf",
+  title: "UMass Club Golf | University of Massachusetts Golf Team",
   description: "NCCGA Club Golf Team at UMass Amherst",
 };
 
