@@ -5,6 +5,7 @@ import { theme } from "../../theme";
 import { DoubleHeader } from "@/components/DoubleHeader/DoubleHeader";
 import { FooterSocial } from "@/components/FooterSocial/FooterSocial";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: "UMass Club Golf | University of Massachusetts Golf Team",
