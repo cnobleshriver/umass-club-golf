@@ -4,6 +4,7 @@ import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../../theme";
 import { DoubleHeader } from "@/components/DoubleHeader/DoubleHeader";
 import { FooterSocial } from "@/components/FooterSocial/FooterSocial";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "UMass Club Golf | University of Massachusetts Golf Team",
