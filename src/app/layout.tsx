@@ -27,6 +27,8 @@ export default function RootLayout({ children }: { children: any }) {
         <MantineProvider forceColorScheme="light" theme={theme}>
           <DoubleHeader />
           {children}
+          <SpeedInsights />
+          <Analytics />
           <FooterSocial />
         </MantineProvider>
       </body>
