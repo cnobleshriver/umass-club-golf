@@ -16,7 +16,8 @@ export default function HomePage() {
         >
           2024-2025 Tryouts Sign-up
         </a> */}
-        <h2>About Us</h2>
+        <title>UMass Club Golf | University of Massachusetts Golf Team</title>
+        <h2>About UMass Club Golf</h2>
         <div className={styles.aboutText}>
           <p>
             Reestablished in 2021 at the University of Massachusetts, we have
