@@ -49,6 +49,7 @@ If you would like to contribute, please follow these steps:
 
 ## Updating Roster
 1. Change "roster" in src/app/components/ArticleCardsGrid/ArticleCardsGrid.tsx
+2. Upload roster photos to public/headshots
 
 ## Updating Tournament Info
 1. Change "data" in src/app/components/TableScrollArea/TableScrollArea.tsx
