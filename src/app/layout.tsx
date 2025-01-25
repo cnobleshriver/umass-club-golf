@@ -8,7 +8,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
-  title: "UMass Club Golf | University of Massachusetts Golf Team",
+  title: "UMass Club Golf | University of Massachusetts Amherst Golf Team",
   description: "NCCGA Club Golf Team at UMass Amherst",
 };
 
