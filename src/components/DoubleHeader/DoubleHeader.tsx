@@ -8,8 +8,6 @@ import classes from "./DoubleHeader.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
-const userLinks = [{ link: "https://nccga.org/app/regions/new-england-region-golf-tournaments", label: "Fall '24 Calendar" }];
-
 const mainLinks = [
   { link: "/", label: "Home" },
   { link: "/roster", label: "Roster" },
@@ -20,6 +18,14 @@ const mainLinks = [
 export function DoubleHeader() {
   const [opened, { toggle }] = useDisclosure(false);
   const [active, setActive] = useState(0);
+
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth();
+  const season = currentMonth > 6 ? "Fall" : "Spring";
+
+  const userLinks = [
+    { link: "https://nccga.org/app/regions/new-england-region-golf-tournaments", label: `${season} ${currentYear} Calendar` },
+  ];
 
   const mainItems = mainLinks.map((item, index) => (
     <Link
