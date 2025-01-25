@@ -19,14 +19,22 @@ To run the application, follow these steps:
     cd umass-club-golf
     ```
 
-2. Install the required dependencies:
+2. Install the required dependencies using npm or yarn:
     ```bash
     npm install
+    ```
+    or
+    ```bash
+    yarn install
     ```
 
 3. Start the application:
     ```bash
-    npm start
+    npm run dev
+    ```
+    or
+    ```bash
+    yarn dev
     ```
 
 The application should now be running on `http://localhost:3000`.
