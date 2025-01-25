@@ -46,3 +46,9 @@ If you would like to contribute, please follow these steps:
 3. Make your changes and commit them (`git commit -m 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Create a pull request.
+
+## Updating Roster
+1. Change "roster" in src/app/components/ArticleCardsGrid/ArticleCardsGrid.tsx
+
+## Updating Tournament Info
+1. Change "data" in src/app/components/TableScrollArea/TableScrollArea.tsx
