@@ -96,6 +96,33 @@ const data = [
     score: '380(+20)',
     url: 'https://nccga.org/app/golf-tournaments/6539/team-leaderboard'
   },
+  {
+    name: 'New England Regional Tournament 1',
+    course: 'The Woods of Westminster',
+    location: 'Westminster, MA',
+    date: 'Sep 28-29, 2024',
+    finish: '2nd',
+    score: '723(+3)',
+    url: 'https://nccga.org/app/golf-tournaments/6871/team-leaderboard'
+  },
+  {
+    name: 'New England Regional Tournament 2',
+    course: 'Hazelton Golf Club',
+    location: 'Rehoboth, MA',
+    date: 'Oct 19-20, 2024',
+    finish: '2nd',
+    score: '708(+8)',
+    url: 'https://nccga.org/app/golf-tournaments/6868/team-leaderboard'
+  },
+  {
+    name: 'New England Regional Tournament 3',
+    course: 'Acushnet River Valley Golf Course',
+    location: 'Acushnet, MA',
+    date: 'Oct 26-27, 2024',
+    finish: '2nd',
+    score: '753(+33)',
+    url: 'https://nccga.org/app/golf-tournaments/6867/team-leaderboard'
+  },
 ];
 
 const reversedData = [...data].reverse();

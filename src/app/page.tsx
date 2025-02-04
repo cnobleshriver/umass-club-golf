@@ -16,10 +16,11 @@ export default function HomePage() {
         >
           2024-2025 Tryouts Sign-up
         </a> */}
-        <h2>About Us</h2>
+        <title>UMass Club Golf | University of Massachusetts Amherst Golf Team</title>
+        <h2>About UMass Club Golf</h2>
         <div className={styles.aboutText}>
           <p>
-            Reestablished in 2021 at the University of Massachusetts, we have
+            Reestablished in 2021 at the University of Massachusetts Amherst, we have
             grown from a small group of golfing students to a prominent club
             known for our sportsmanship, teamwork, and dedication to promoting
             golf within the university. Our team currently participates in the

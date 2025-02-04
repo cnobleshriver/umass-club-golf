@@ -4,9 +4,11 @@ import { MantineProvider, ColorSchemeScript } from "@mantine/core";
 import { theme } from "../../theme";
 import { DoubleHeader } from "@/components/DoubleHeader/DoubleHeader";
 import { FooterSocial } from "@/components/FooterSocial/FooterSocial";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
-  title: "UMass Club Golf",
+  title: "UMass Club Golf | University of Massachusetts Amherst Golf Team",
   description: "NCCGA Club Golf Team at UMass Amherst",
 };
 
@@ -25,6 +27,8 @@ export default function RootLayout({ children }: { children: any }) {
         <MantineProvider forceColorScheme="light" theme={theme}>
           <DoubleHeader />
           {children}
+          <SpeedInsights />
+          <Analytics />
           <FooterSocial />
         </MantineProvider>
       </body>
