@@ -12,12 +12,12 @@ const contacts = [
     email: "cpietrini@umass.edu",
   },
   {
-    title: "Treasurer",
+    title: "Secretary",
     name: "Markus Pierre",
     email: "mlpierre@umass.edu",
   },
   {
-    title: "Secretary",
+    title: "Treasurer",
     name: "Jared Curran",
     email: "jaredcurran@umass.edu",
   },
