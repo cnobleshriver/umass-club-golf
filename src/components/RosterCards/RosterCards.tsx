@@ -8,7 +8,7 @@ import {
   Container,
   AspectRatio,
 } from "@mantine/core";
-import classes from "./ArticlesCardsGrid.module.css";
+import classes from "./RosterCards.module.css";
 
 const roster = [
   {
@@ -111,7 +111,7 @@ const roster = [
   },
 ];
 
-export function ArticlesCardsGrid() {
+export function RosterCards() {
   const cards = roster.map((article) => (
     <Card
       key={article.name}

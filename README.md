@@ -48,8 +48,8 @@ If you would like to contribute, please follow these steps:
 5. Create a pull request.
 
 ## Updating Roster
-1. Change "roster" in src/app/components/ArticleCardsGrid/ArticleCardsGrid.tsx
+1. Change "roster" in src/app/components/RosterCards/RosterCards.tsx
 2. Upload roster photos to public/headshots
 
 ## Updating Tournament Info
-1. Change "data" in src/app/components/TableScrollArea/TableScrollArea.tsx
+1. Change "data" in src/app/components/TournamentTable/TournamentTable.tsx

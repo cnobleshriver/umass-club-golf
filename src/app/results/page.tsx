@@ -1,9 +1,9 @@
-import { TableScrollArea } from "@/components/TableScrollArea/TableScrollArea";
+import { TournamentTable } from "@/components/TournamentTable/TournamentTable";
 
 export default function ResultsPage() {
   return (
     <>
-      <TableScrollArea />
+      <TournamentTable />
     </>
   );
 }

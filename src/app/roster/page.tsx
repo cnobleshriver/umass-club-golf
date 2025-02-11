@@ -1,9 +1,9 @@
-import { ArticlesCardsGrid } from "@/components/ArticlesCardsGrid/ArticlesCardsGrid";
+import { RosterCards } from "@/components/RosterCards/RosterCards";
 
 export default function RosterPage() {
   return (
     <>
-      <ArticlesCardsGrid />
+      <RosterCards />
     </>
   );
 }

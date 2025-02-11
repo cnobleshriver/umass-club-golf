@@ -3,7 +3,7 @@
 import cx from 'clsx';
 import { useState } from 'react';
 import { Table, ScrollArea } from '@mantine/core';
-import classes from './TableScrollArea.module.css';
+import classes from './TournamentTable.module.css';
 
 const data = [
   {
@@ -127,7 +127,7 @@ const data = [
 
 const reversedData = [...data].reverse();
 
-export function TableScrollArea() {
+export function TournamentTable() {
   const [scrolled, setScrolled] = useState(false);
 
   const rows = reversedData.map((row) => (
