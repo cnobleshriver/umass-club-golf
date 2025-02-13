@@ -6,7 +6,7 @@ export function Hero() {
     return (
         <div className={classes.hero}>
             <Overlay
-                gradient="linear-gradient(60deg, rgba(120, 0, 0, 0.65) 0%, rgba(120, 0, 0, 0.65) 59.8%, transparent 60%)"
+                gradient="linear-gradient(60deg, rgba(120, 0, 0, 0.65) 0%, rgba(120, 0, 0, 0.65) 49.8%, transparent 50%)"
                 opacity={1}
                 zIndex={0}
             />
