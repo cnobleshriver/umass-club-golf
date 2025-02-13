@@ -28,7 +28,7 @@ export default function HomePage() {
             competitions. These tournaments offer our team members an incredible
             opportunity to showcase their skills, compete at a high level, and
             represent UMass among other top collegiate club golf teams in the
-            region.
+            region. Practices are held at the Orchards Golf Club in South Hadley, MA.
           </p>
         </div>
       </section>
