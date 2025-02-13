@@ -12,6 +12,7 @@ const mainLinks = [
   { link: "/", label: "Home" },
   { link: "/roster", label: "Roster" },
   { link: "/results", label: "Tournament Results" },
+  { link: "/stats", label: "Stats" },
   { link: "/contact", label: "Contact" },
 ];
 
