@@ -131,7 +131,7 @@ export function TournamentTable() {
   const [scrolled, setScrolled] = useState(false);
 
   const rows = reversedData.map((row) => (
-    <Table.Tr key={row.name}>
+    <Table.Tr key={row.date}>
       <Table.Td>
         <a href={row.url} target="_blank" rel="noopener noreferrer">{row.name}</a>
       </Table.Td>
