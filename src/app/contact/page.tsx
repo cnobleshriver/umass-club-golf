@@ -30,7 +30,7 @@ export default function ContactPage() {
       <div className={styles.interestForm}>
         <p>
           Interested in joining us? Fill out this{" "}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLScS7gt2QBsnG1ztn5Lj0oh57UU9ovQicdXoxb1Omg5dvxWrBA/viewform" target="_blank" rel="noopener noreferrer">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3A8HaCwtTTeQbjXEzOXKempDac8xz032IqSVK4F9q01T78A/viewform?usp=pp_url" target="_blank" rel="noopener noreferrer">
             Interest Form
           </a>
         </p>
