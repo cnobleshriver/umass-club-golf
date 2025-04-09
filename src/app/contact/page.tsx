@@ -34,18 +34,6 @@ export default function ContactPage() {
           leadership.
         </p>
       </div>
-      <div className={styles.interestForm}>
-        <h2>Interested in Joining?</h2>
-        <p>Fill out our interest form to get involved with UMass Club Golf.</p>
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSc3A8HaCwtTTeQbjXEzOXKempDac8xz032IqSVK4F9q01T78A/viewform?usp=pp_url"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.button}
-        >
-          Interest Form →
-        </a>
-      </div>
 
       <h2 className={styles.teamHeader}>Team Leadership</h2>
       <div className={styles.imageContainer}>
@@ -68,6 +56,18 @@ export default function ContactPage() {
             </a>
           </div>
         ))}
+      </div>
+      <div className={styles.interestForm}>
+        <h2>Interested in Joining?</h2>
+        <p>Fill out our interest form to get involved with UMass Club Golf.</p>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc3A8HaCwtTTeQbjXEzOXKempDac8xz032IqSVK4F9q01T78A/viewform?usp=pp_url"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.button}
+        >
+          Interest Form →
+        </a>
       </div>
     </div>
   );
