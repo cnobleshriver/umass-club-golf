@@ -19,7 +19,7 @@ export default function HomePage() {
             New England Region competitions and various NCAA D1, D2 & D3 events
             across the country. These competitions allow our members to travel,
             compete at high levels, experience excellent golf courses, and
-            represent UMass alongside top collegiate teams. As the university's
+            represent UMass alongside top collegiate teams. As the university&apos;s
             sole golf program, we proudly serve as the premier competitive golf
             opportunity at UMass Amherst.
           </p>
