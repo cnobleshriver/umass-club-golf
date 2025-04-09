@@ -1,50 +1,59 @@
-.aboutSection {
-    font-family: Arial, sans-serif;
-    color: #282828;
-    background-color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .aboutSection h2 {
-    color: #881111;
-    font-size: 2em;
-    margin-bottom: 1em;
-  }
-  
-  .aboutText {
-    max-width: 1200px;
-    width: 100%;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  
-  .aboutText p {
-    color: #282828;
-    font-size: 1.2em;
-    margin-bottom: 1em;
-  }
+/* HomePage.module.css */
 
-  .tryoutsButton {
-    display: inline-block;
-    padding: 1rem 2rem;
-    font-size: 1.25rem;
-    color: #fff;
-    background-color: #881111;
-    border: none;
-    border-radius: 0.25rem;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .tryoutsButton:hover {
-    background-color: #994444;
-  }
+.aboutSection {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutText {
+  max-width: 800px;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.aboutText h3 {
+  color: #881111;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.aboutText p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.joinButtonContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.joinButton {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #881111;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.joinButton:hover {
+  background-color: #6d0e0e;
+}
+
+.teamPhoto {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+}

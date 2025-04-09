@@ -123,6 +123,42 @@ const data = [
     score: '753(+33)',
     url: 'https://nccga.org/app/golf-tournaments/6867/team-leaderboard'
   },
+  {
+    name: 'NCCGA Nationals Fall 2024',
+    course: 'Pinehurst',
+    location: 'Pinehurst, NC',
+    date: 'Dec 7-8, 2025',
+    finish: 'T12',
+    score: '782(+62)',
+    url: 'https://hpe.golfgenius.com/pages/11158565003991241365'
+  },
+  {
+    name: 'Laker Spring Shootout (NCAA D1)',
+    course: 'Foxfire Country Club',
+    location: 'Foxfire, NC',
+    date: 'Mar 7-8, 2025',
+    finish: '5th',
+    score: '926(+62)',
+    url: 'https://mercyhurst.leaderboardking.com/leaderboards/5354/layout_ncaa?game_id=10978'
+  },
+  {
+    name: 'Lindenwood Invitational (NCAA D1)',
+    course: 'Missouri Bluffs Golf Club',
+    location: 'St. Charles, MO',
+    date: 'Mar 21-22, 2025',
+    finish: '5th',
+    score: '921(+69)',
+    url: 'https://scoreboard.clippd.com/tournaments/234497/scoring/player'
+  },
+  {
+    name: 'New England Regional Tournament 1',
+    course: 'Cold Springs Country Club',
+    location: 'Belchertown, MA',
+    date: 'Apr 5-6, 2025',
+    finish: '3rd',
+    score: '774(+64)',
+    url: 'https://nccga.org/app/golf-tournaments/7125/team-leaderboard'
+  }
 ];
 
 const reversedData = [...data].reverse();
