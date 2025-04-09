@@ -17,49 +17,56 @@ export default function HomePage() {
             to promoting golf within the university. Our team currently
             participates in National Collegiate Club Golf Association (NCCGA)
             New England Region competitions and various NCAA D1, D2 & D3 events
-            across the country. These tournaments offer our team members an
-            incredible opportunity to travel the country, compete at a high
-            level, play terrific golf courses, and represent UMass among top
-            collegiate varsity and club golf teams in the country. As there is no
-            varsity program on campus, we are proud to be the exclusive representatives
-            and premier opportunity for golf at the University of Massachusetts Amherst.
-            </p>
-            <img
+            across the country. These competitions allow our members to travel,
+            compete at high levels, experience excellent golf courses, and
+            represent UMass alongside top collegiate teams. As the university's
+            sole golf program, we proudly serve as the premier competitive golf
+            opportunity at UMass Amherst.
+          </p>
+          <img
             src="team-photo-1.jpg"
             alt="UMass Club Golf Team"
             className={styles.teamPhoto}
-            />
+          />
           <h3>Team Structure</h3>
           <p>
-            The team is made up of 14 golfers. Four players are elected to leadership 
-            positions (President, Vice President, Treasurer & Secretary) and are exempt from tryouts.
+            Our roster consists of 14 golfers, including four elected leadership
+            positions (President, Vice President, Treasurer, and Secretary).
+            These four leadership members are automatically retained on the team
+            and exempt from the annual tryout process.
           </p>
-          
+
           <h3>Tryouts</h3>
           <p>
-            Tryouts for the team are held when students arrive on campus - either the last 
-            weekend in August or the first weekend in September. Tryouts consist of two days, 36 holes
-            of stroke play. There are 10 spots available each year.
+            Tryouts are held annually when students return to campus (typically
+            the last weekend of August or first weekend of September). The
+            process consists of a 36-hole stroke play competition spread across
+            two days. Each year, 10 spots on the team are available through
+            tryouts.
           </p>
-          
+
           <h3>Membership Benefits</h3>
           <p>
-            The team charges annual dues between $500 - $1,000. This is the only expense a player 
-            is responsible for. Members of the team earn a full membership to the Orchards Golf Club 
-            in South Hadley, MA. The Orchards is a demanding Donald Ross design with full access to the
-            driving range, short game area, and putting green. It provides an outstanding setting to 
-            develop your golf game. Team members are also given a full package of UMass Golf gear. 
-            The team frequently travels around the country to events; however, travel expenses are 
-            covered by funding provided by the school. As the sole team of golfers at UMass Amherst, 
-            we take pride in operating and playing like an NCAA Division 1 program.
+            Team members pay annual dues ranging from $500 to $1,000, which
+            covers all player expenses. This includes a full membership to the
+            Orchards Golf Club in South Hadley, MA—a challenging Donald
+            Ross-designed course featuring a complete practice facility with
+            driving range, short game area, and putting green. Members also
+            receive a comprehensive package of UMass Golf apparel and equipment.
+            While the team travels extensively to competitions across the
+            country, all travel expenses are covered by university funding. As
+            the premier golf team representing UMass Amherst, we strive to
+            maintain training standards and a competitive environment comparable
+            to NCAA Division 1 programs.
           </p>
-          
+
           <h3>Join Us</h3>
           <p>
-            While we cannot recruit golfers to the school and our program, we encourage you to 
-            express your interest in our Athlete Questionnaire and reach out to us with any questions!
+            While we cannot recruit golfers to the school and our program, we
+            encourage you to express your interest in our Athlete Questionnaire
+            and reach out to us with any questions!
           </p>
-          
+
           <div className={styles.joinButtonContainer}>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSc3A8HaCwtTTeQbjXEzOXKempDac8xz032IqSVK4F9q01T78A/viewform"
