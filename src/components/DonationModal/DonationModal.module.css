@@ -1,0 +1,27 @@
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .donationImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .donateButton {
+    background-color: #881c1c;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .donateButton:hover {
+    background-color: #6e0e0e;
+    transform: translateY(-2px);
+  }
