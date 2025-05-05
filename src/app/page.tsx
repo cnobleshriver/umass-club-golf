@@ -1,15 +1,15 @@
 import { Hero } from "@/components/Hero/Hero";
 import styles from "./HomePage.module.css";
-import { DonationModal } from "@/components/DonationModal/DonationModal";
+// import { DonationModal } from "@/components/DonationModal/DonationModal";
 
 /* Website built by club member, Christian Noble Shriver, in 2023. */
 
 export default function HomePage() {
-  const donationUrl = "https://umass.scalefunder.com/gday/giving-day/98035/department/105394";
+  // const donationUrl = "https://umass.scalefunder.com/gday/giving-day/98035/department/105394";
   return (
     <>
       <Hero />
-      <DonationModal donationUrl={donationUrl} />
+      {/* <DonationModal donationUrl={donationUrl} /> */}
       <section className={styles.aboutSection}>
         <h2>About UMass Club Golf</h2>
         <div className={styles.aboutText}>
