@@ -49,19 +49,16 @@ export default function HomePage() {
           </p>
 
           <h3>Membership Benefits</h3>
-          <p>
+            <p>
             Team members pay annual dues ranging from $500 to $1,000, which
             covers all player expenses. This includes a full membership to the
             Orchards Golf Club in South Hadley, MA—a challenging Donald
             Ross-designed course featuring a complete practice facility with
             driving range, short game area, and putting green. Members also
             receive a comprehensive package of UMass Golf apparel and equipment.
-            While the team travels extensively to competitions across the
-            country, all travel expenses are covered by university funding. As
-            the premier golf team representing UMass Amherst, we strive to
-            maintain training standards and a competitive environment comparable
-            to NCAA Division 1 programs.
-          </p>
+            Additionally, the team participates in competitions throughout the
+            country with travel expenses fully covered by the university.
+            </p>
 
           <h3>Join Us</h3>
           <p>

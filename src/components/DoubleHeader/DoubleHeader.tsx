@@ -23,9 +23,10 @@ export function DoubleHeader() {
   const currentYear = new Date().getFullYear();
   const currentMonth = new Date().getMonth();
   const season = currentMonth > 6 ? "Fall" : "Spring";
-
+  // link: "https://nccga.org/app/golf-tournaments/nccga-schedule#region-12",
+  // link: "https://nccga.org/app/regions/new-england-region-golf-tournaments",
   const userLinks = [
-    { link: "https://nccga.org/app/regions/new-england-region-golf-tournaments", label: `${season} ${currentYear} Calendar` },
+    { link: "https://nccga.org/app/golf-tournaments/nccga-schedule#region-12", label: `${season} ${currentYear} Calendar` },
   ];
 
   const mainItems = mainLinks.map((item, index) => (
