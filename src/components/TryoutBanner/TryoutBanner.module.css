@@ -1,0 +1,111 @@
+.banner {
+  background: linear-gradient(135deg, #881c1c 0%, #a52a2a 100%);
+  color: white;
+  padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(136, 28, 28, 0.3);
+  animation: slideDown 0.5s ease-out;
+}
+
+.bannerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.bannerText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bannerTitle {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.bannerDescription {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.bannerActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.signupButton {
+  background-color: white;
+  color: #881c1c;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.signupButton:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  line-height: 1;
+}
+
+.closeButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .bannerContent {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+  
+  .bannerText {
+    align-items: center;
+  }
+  
+  .bannerActions {
+    align-self: stretch;
+    justify-content: center;
+  }
+  
+  .signupButton {
+    flex: 1;
+    max-width: 200px;
+  }
+}
