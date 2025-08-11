@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 import { Hero } from "@/components/Hero/Hero";
 import styles from "./HomePage.module.css";
 // import { DonationModal } from "@/components/DonationModal/DonationModal";
@@ -45,10 +46,12 @@ export default function HomePage() {
             sole golf program, we proudly serve as the premier competitive golf
             opportunity at UMass Amherst.
           </p>
-          <img
-            src="team-photo-1.jpg"
+          <Image
+            src="/team-photo-1.jpg"
             alt="UMass Club Golf Team"
             className={styles.teamPhoto}
+            width={800}
+            height={600}
           />
           <h3>Team Structure</h3>
           <p>

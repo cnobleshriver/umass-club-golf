@@ -19,8 +19,8 @@ function Th({ children, reversed, sorted, onSort }: ThProps) {
   return (
     <Table.Th className={classes.th}>
       <UnstyledButton onClick={onSort} className={classes.control}>
-        <Center gap={5}>
-          <Text fw={500} fz="sm">
+        <Center>
+          <Text fw={500} fz="sm" mr={5}>
             {children}
           </Text>
           <Icon style={{ width: rem(16), height: rem(16) }} stroke={1.5} />
@@ -78,10 +78,13 @@ export function TournamentTable() {
           bValue = b.startDate;
       }
 
-      if (typeof aValue === 'string') {
+      if (typeof aValue === 'string' && typeof bValue === 'string') {
         return reverseSortDirection ? bValue.localeCompare(aValue) : aValue.localeCompare(bValue);
-      } else {
+      } else if (typeof aValue === 'number' && typeof bValue === 'number') {
         return reverseSortDirection ? bValue - aValue : aValue - bValue;
+      } else {
+        // Fallback for mixed types
+        return 0;
       }
     });
 
