@@ -1,0 +1,23 @@
+[
+  {
+    "title": "President",
+    "name": "Markus Pierre",
+    "email": "mlpierre@umass.edu"
+  },
+  {
+    "title": "Vice President",
+    "name": "Michael Guerrera",
+    "email": "mguerrera@umass.edu"
+  },
+  {
+    "title": "Treasurer",
+    "name": "Jared Curran",
+    "email": "jaredcurran@umass.edu"
+  },
+  {
+    "title": "Secretary",
+    "name": "CJ Kivlehan",
+    "email": "cjkivlehan@umass.edu"
+  }
+
+]

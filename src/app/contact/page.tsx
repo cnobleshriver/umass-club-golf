@@ -1,28 +1,6 @@
 import styles from "./ContactPage.module.css";
 import Image from "next/image";
-
-const contacts = [
-  {
-    title: "President",
-    name: "Mike Pietrini",
-    email: "mpietrini@umass.edu",
-  },
-  {
-    title: "Vice President",
-    name: "Chris Pietrini",
-    email: "cpietrini@umass.edu",
-  },
-  {
-    title: "Secretary",
-    name: "Markus Pierre",
-    email: "mlpierre@umass.edu",
-  },
-  {
-    title: "Treasurer",
-    name: "Jared Curran",
-    email: "jaredcurran@umass.edu",
-  },
-];
+import contactsData from "@/data/contacts.json";
 
 export default function ContactPage() {
   return (
@@ -47,7 +25,7 @@ export default function ContactPage() {
         />
       </div>
       <div className={styles.contactsGrid}>
-        {contacts.map((contact, index) => (
+        {contactsData.map((contact, index) => (
           <div key={index} className={styles.contactCard}>
             <div className={styles.contactTitle}>{contact.title}</div>
             <div className={styles.contactName}>{contact.name}</div>

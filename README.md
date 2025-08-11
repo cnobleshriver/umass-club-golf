@@ -70,6 +70,7 @@ This guide shows team members how to update tournament results, roster informati
 - Tournament results and scores
 - Roster information (players, majors, class years)
 - Player headshot photos
+- Contact information (leadership positions and emails)
 
 ## Updating Tournament Results
 
@@ -201,15 +202,45 @@ Each player entry looks like this:
 - GitHub will automatically replace it
 - No need to update the roster.json file
 
+## Updating Contact Information
+
+### Step 1: Access the Contact Data File
+1. Navigate to `src` → `data` → `contacts.json`
+2. Click the pencil icon to edit
+
+### Step 2: Update Leadership Information
+Each contact entry looks like this:
+
+```json
+{
+  "title": "President",
+  "name": "Mike Pietrini",
+  "email": "mpietrini@umass.edu"
+}
+```
+
+**To update existing contact:**
+1. Find the person's entry by their title (President, Vice President, etc.)
+2. Update the `"name"` and/or `"email"` fields with new information
+
+**Field Explanations:**
+- `title`: Leadership position (President, Vice President, Secretary, Treasurer)
+- `name`: Full name of the person
+- `email`: UMass email address
+
+### Step 3: Save Your Changes
+1. Scroll to bottom and commit with message: `Update contact info for [Position]`
+
 ## Using the Content Helper Tool
 
 For easier JSON generation, visit [https://www.umassgolf.org/content-helper.html](https://www.umassgolf.org/content-helper.html):
 
 1. **Tournament Tab**: Fill out the form with tournament details
 2. **Roster Tab**: Fill out the form with player information
-3. Click "Generate JSON"
-4. Copy the generated code
-5. Paste it into the appropriate GitHub file
+3. **Contact Tab**: Fill out the form with leadership information
+4. Click "Generate JSON"
+5. Copy the generated code
+6. Paste it into the appropriate GitHub file
 
 ## Tournament Table Features
 
@@ -246,6 +277,7 @@ If you encounter issues:
 ### File Locations:
 - **Tournament Results**: `src/data/tournaments.json`
 - **Roster Information**: `src/data/roster.json`
+- **Contact Information**: `src/data/contacts.json`
 - **Player Photos**: `public/headshots/`
 
 ### JSON Template - Tournament:
@@ -274,6 +306,15 @@ If you encounter issues:
   "image": "headshots/filename.jpg",
   "year": "Class Year",
   "major": "Major Name"
+}
+```
+
+### JSON Template - Contact:
+```json
+{
+  "title": "Position Title",
+  "name": "Full Name",
+  "email": "email@umass.edu"
 }
 ```
 
