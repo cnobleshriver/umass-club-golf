@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMass Club Golf - Content Helper</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #136c72;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #136c72;
+            border-bottom: 2px solid #136c72;
+            padding-bottom: 10px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #136c72;
+        }
+        button {
+            background-color: #136c72;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0f5a5f;
+        }
+        .output {
+            background-color: #f8f9fa;
+            border: 2px solid #136c72;
+            border-radius: 6px;
+            padding: 20px;
+            margin-top: 20px;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .copy-btn {
+            background-color: #28a745;
+            margin-top: 10px;
+        }
+        .copy-btn:hover {
+            background-color: #218838;
+        }
+        .tab-buttons {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .tab-button {
+            background: none;
+            border: none;
+            padding: 15px 25px;
+            cursor: pointer;
+            font-size: 16px;
+            color: #666;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s;
+        }
+        .tab-button.active {
+            color: #136c72;
+            border-bottom-color: #136c72;
+            font-weight: 600;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .note {
+            background-color: #e7f3ff;
+            border-left: 4px solid #136c72;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 6px 6px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏌️ UMass Club Golf Content Helper</h1>
+        <p style="text-align: center; color: #666; margin-bottom: 30px;">
+            Generate properly formatted JSON for tournament results and roster updates
+        </p>
+
+        <div class="tab-buttons">
+            <button class="tab-button active" onclick="showTab('tournament')">🏆 Tournament Results</button>
+            <button class="tab-button" onclick="showTab('roster')">👥 Roster Entry</button>
+        </div>
+
+        <!-- Tournament Tab -->
+        <div id="tournament" class="tab-content active">
+            <h2>Add Tournament Result</h2>
+            <form id="tournamentForm">
+                <div class="form-group">
+                    <label for="tournamentName">Tournament Name:</label>
+                    <input type="text" id="tournamentName" placeholder="e.g., New England Regional Tournament 1" required>
+                </div>
+                <div class="form-group">
+                    <label for="course">Golf Course:</label>
+                    <input type="text" id="course" placeholder="e.g., Pinehurst No. 2" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location:</label>
+                    <input type="text" id="location" placeholder="e.g., Pinehurst, NC" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Display Date:</label>
+                    <input type="text" id="date" placeholder="e.g., Apr 5-6, 2025 (or Apr 5, 2025 for single day)" required>
+                </div>
+                <div class="form-group">
+                    <label for="startDate">Start Date (YYYY-MM-DD):</label>
+                    <input type="date" id="startDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="endDate">End Date (YYYY-MM-DD):</label>
+                    <input type="date" id="endDate" required>
+                    <small style="color: #666;">For single-day tournaments, use the same date as start date</small>
+                </div>
+                <div class="form-group">
+                    <label for="finish">Team Finish:</label>
+                    <input type="text" id="finish" placeholder="e.g., 1st, 2nd, T3, etc." required>
+                </div>
+                <div class="form-group">
+                    <label for="score">Team Score:</label>
+                    <input type="text" id="score" placeholder="e.g., 758(+38)" required>
+                </div>
+                <div class="form-group">
+                    <label for="totalScore">Total Score (numbers only):</label>
+                    <input type="number" id="totalScore" placeholder="e.g., 758" required>
+                </div>
+                <div class="form-group">
+                    <label for="toPar">To Par (numbers only):</label>
+                    <input type="number" id="toPar" placeholder="e.g., 38" required>
+                </div>
+                <div class="form-group">
+                    <label for="url">Results URL:</label>
+                    <input type="url" id="url" placeholder="https://..." required>
+                </div>
+                <button type="button" onclick="generateTournamentJSON()">Generate JSON</button>
+            </form>
+        </div>
+
+        <!-- Roster Tab -->
+        <div id="roster" class="tab-content">
+            <h2>Add Roster Entry</h2>
+            <form id="rosterForm">
+                <div class="form-group">
+                    <label for="playerName">Full Name:</label>
+                    <input type="text" id="playerName" placeholder="e.g., John Smith" required>
+                </div>
+                <div class="form-group">
+                    <label for="playerLocation">Hometown:</label>
+                    <input type="text" id="playerLocation" placeholder="e.g., Boston, MA" required>
+                </div>
+                <div class="form-group">
+                    <label for="playerImage">Photo Filename:</label>
+                    <input type="text" id="playerImage" placeholder="e.g., smith-1.jpg (must match uploaded file)" required>
+                </div>
+                <div class="form-group">
+                    <label for="playerYear">Class Year:</label>
+                    <select id="playerYear" required>
+                        <option value="">Select...</option>
+                        <option value="Freshman">Freshman</option>
+                        <option value="Sophomore">Sophomore</option>
+                        <option value="Junior">Junior</option>
+                        <option value="Senior">Senior</option>
+                        <option value="Graduate Student">Graduate Student</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="playerMajor">Major:</label>
+                    <input type="text" id="playerMajor" placeholder="e.g., Computer Science" required>
+                </div>
+                <button type="button" onclick="generateRosterJSON()">Generate JSON</button>
+            </form>
+        </div>
+
+        <div id="output" class="output" style="display: none;"></div>
+        <button id="copyBtn" class="copy-btn" style="display: none;" onclick="copyToClipboard()">📋 Copy to Clipboard</button>
+
+        <div class="note">
+            <strong>How to use:</strong>
+            <ol>
+                <li>Fill out the form above</li>
+                <li>Click "Generate JSON" to create the properly formatted code</li>
+                <li>Copy the generated JSON</li>
+                <li>Go to GitHub and paste it into the appropriate data file</li>
+                <li>Don't forget to add a comma before your new entry!</li>
+            </ol>
+            
+            <strong>Tournament Table Features:</strong>
+            <ul>
+                <li><strong>Sortable Columns:</strong> Date, Finish, and Team Score can be sorted by clicking column headers</li>
+                <li><strong>Date Sorting:</strong> Sorts chronologically by tournament start date</li>
+                <li><strong>Finish Sorting:</strong> Sorts by team placement (1st, 2nd, T6, etc.)</li>
+                <li><strong>Team Score Sorting:</strong> Sorts by "to par" performance (+3, +8, +64, etc.)</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+            
+            // Hide output when switching tabs
+            document.getElementById('output').style.display = 'none';
+            document.getElementById('copyBtn').style.display = 'none';
+        }
+
+        function generateTournamentJSON() {
+            const name = document.getElementById('tournamentName').value;
+            const course = document.getElementById('course').value;
+            const location = document.getElementById('location').value;
+            const date = document.getElementById('date').value;
+            const startDate = document.getElementById('startDate').value;
+            const endDate = document.getElementById('endDate').value;
+            const finish = document.getElementById('finish').value;
+            const score = document.getElementById('score').value;
+            const totalScore = parseInt(document.getElementById('totalScore').value);
+            const toPar = parseInt(document.getElementById('toPar').value);
+            const url = document.getElementById('url').value;
+
+            if (!name || !course || !location || !date || !startDate || !endDate || !finish || !score || !totalScore || !toPar || !url) {
+                alert('Please fill out all fields');
+                return;
+            }
+
+            // Parse finish to get numeric value
+            let finishNumeric;
+            const finishLower = finish.toLowerCase();
+            if (finishLower.includes('1st') || finishLower === '1') {
+                finishNumeric = 1;
+            } else if (finishLower.includes('2nd') || finishLower === '2') {
+                finishNumeric = 2;
+            } else if (finishLower.includes('3rd') || finishLower === '3') {
+                finishNumeric = 3;
+            } else if (finishLower.startsWith('t')) {
+                // Handle tied positions like "T6"
+                finishNumeric = parseInt(finishLower.substring(1));
+            } else {
+                // Try to extract number from string
+                const match = finish.match(/\d+/);
+                finishNumeric = match ? parseInt(match[0]) : 999;
+            }
+
+            const tournament = {
+                name: name,
+                course: course,
+                location: location,
+                date: date,
+                startDate: startDate,
+                endDate: endDate,
+                finish: finish,
+                finishNumeric: finishNumeric,
+                score: score,
+                totalScore: totalScore,
+                toPar: toPar,
+                url: url
+            };
+
+            const jsonString = JSON.stringify(tournament, null, 2);
+            showOutput(jsonString);
+        }
+
+        function generateRosterJSON() {
+            const name = document.getElementById('playerName').value;
+            const location = document.getElementById('playerLocation').value;
+            const image = document.getElementById('playerImage').value;
+            const year = document.getElementById('playerYear').value;
+            const major = document.getElementById('playerMajor').value;
+
+            if (!name || !location || !image || !year || !major) {
+                alert('Please fill out all fields');
+                return;
+            }
+
+            // Auto-format image filename
+            let formattedImage = image;
+            if (!image.startsWith('headshots/')) {
+                formattedImage = 'headshots/' + image;
+            }
+
+            const player = {
+                name: name,
+                location: location,
+                image: formattedImage,
+                year: year,
+                major: major
+            };
+
+            const jsonString = JSON.stringify(player, null, 2);
+            showOutput(jsonString);
+        }
+
+        function showOutput(json) {
+            const output = document.getElementById('output');
+            const copyBtn = document.getElementById('copyBtn');
+            
+            output.textContent = json;
+            output.style.display = 'block';
+            copyBtn.style.display = 'block';
+            
+            // Store for copying
+            window.generatedJSON = json;
+        }
+
+        async function copyToClipboard() {
+            try {
+                await navigator.clipboard.writeText(window.generatedJSON);
+                const btn = document.getElementById('copyBtn');
+                const originalText = btn.textContent;
+                btn.textContent = '✅ Copied!';
+                btn.style.backgroundColor = '#28a745';
+                
+                setTimeout(() => {
+                    btn.textContent = originalText;
+                    btn.style.backgroundColor = '#28a745';
+                }, 2000);
+            } catch (err) {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = window.generatedJSON;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                alert('JSON copied to clipboard!');
+            }
+        }
+    </script>
+</body>
+</html>
