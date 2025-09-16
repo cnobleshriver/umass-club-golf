@@ -5,31 +5,31 @@ import { Hero } from "@/components/Hero/Hero";
 import styles from "./HomePage.module.css";
 // import { DonationModal } from "@/components/DonationModal/DonationModal";
 import { TryoutModal } from "@/components/TryoutModal/TryoutModal";
-import { TryoutBanner } from "@/components/TryoutBanner/TryoutBanner";
+// import { TryoutBanner } from "@/components/TryoutBanner/TryoutBanner";
 
 /* Website built by club member, Christian Noble Shriver, in 2023. */
 
 export default function HomePage() {
   // const donationUrl = "https://umass.scalefunder.com/gday/giving-day/98035/department/105394";
-  const tryoutUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfqcRwdaZm_1pls56NkZAgkBqNAXYVcWvgoKElBXOOF_n-KpQ/viewform?fbclid=PAQ0xDSwMC-iRleHRuA2FlbQIxMQABp8rp5sS8hJ-HWpIFUKw2SDRZULvaVEd8bQK0O0YJUOaIQV1IrsBXBxe6nEiS_aem__AB5pmQFBvEVCzupBwpswg";
+  // const tryoutUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfqcRwdaZm_1pls56NkZAgkBqNAXYVcWvgoKElBXOOF_n-KpQ/viewform?fbclid=PAQ0xDSwMC-iRleHRuA2FlbQIxMQABp8rp5sS8hJ-HWpIFUKw2SDRZULvaVEd8bQK0O0YJUOaIQV1IrsBXBxe6nEiS_aem__AB5pmQFBvEVCzupBwpswg";
   
   const [modalOpened, setModalOpened] = useState(false);
-  const [showBanner, setShowBanner] = useState(true);
+  // const [showBanner, setShowBanner] = useState(true);
 
   return (
     <>
-      {showBanner && (
+      {/* {showBanner && (
         <TryoutBanner 
           onOpenModal={() => setModalOpened(true)} 
         />
-      )}
+      )} */}
       <Hero />
       {/* <DonationModal donationUrl={donationUrl} /> */}
-      <TryoutModal 
+      {/* <TryoutModal 
         tryoutUrl={tryoutUrl} 
         opened={modalOpened}
         onClose={() => setModalOpened(false)}
-      />
+      /> */}
       <section className={styles.aboutSection}>
         <h2>About UMass Club Golf</h2>
         <div className={styles.aboutText}>
