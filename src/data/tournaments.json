@@ -236,5 +236,33 @@
     "totalScore": 774,
     "toPar": 64,
     "url": "https://nccga.org/app/golf-tournaments/7125/team-leaderboard"
+  },
+    {
+    "name": "Red Bandanna Invitational (NCAA D1)",
+    "course": "Turning Stone Resort",
+    "location": "Verona, NY",
+    "date": "Aug 31-Sep 1, 2025",
+    "startDate": "2025-08-31",
+    "endDate": "2025-09-01",
+    "finish": "7th",
+    "finishNumeric": 7,
+    "score": "941(+77)",
+    "totalScore": 941,
+    "toPar": 77,
+    "url": "https://scoreboard.clippd.com/tournaments/239379/scoring/team"
+  },
+      {
+    "name": "Mercyhurst Laker Fall Invitational (NCAA D1)",
+    "course": "Lake View GC",
+    "location": "North East, PA",
+    "date": "Sep 14-15, 2025",
+    "startDate": "2025-09-14",
+    "endDate": "2025-09-15",
+    "finish": "5th",
+    "finishNumeric": 5,
+    "score": "900(+36)",
+    "totalScore": 900,
+    "toPar": 36,
+    "url": "https://scoreboard.clippd.com/tournaments/236937/scoring/team"
   }
 ]

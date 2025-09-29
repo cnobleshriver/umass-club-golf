@@ -1,100 +1,100 @@
 [
   {
-    "name": "Gabe Schulefand",
-    "location": "Buffalo, NY",
-    "image": "headshots/gshulefand-1.jpg",
-    "year": "Graduate Student",
-    "major": "Business Analytics"
-  },
-  {
-    "name": "Chris Pietrini",
-    "location": "Beverly, MA",
-    "image": "headshots/cpietrini-1.jpg",
-    "year": "Senior",
-    "major": "Psychology"
-  },
-  {
-    "name": "Mike Pietrini",
-    "location": "Beverly, MA",
-    "image": "headshots/mpietrini-1.jpg",
-    "year": "Senior",
-    "major": "Finance"
-  },
-  {
-    "name": "Christopher Pickreign",
-    "location": "Harvard, MA",
-    "image": "headshots/cpickreign-1.jpg",
-    "year": "Senior",
-    "major": "Computer Science & Finance"
-  },
-  {
-    "name": "Christian Noble Shriver",
-    "location": "Rochester, MA",
-    "image": "headshots/cnobleshriver-1.jpg",
-    "year": "Senior",
-    "major": "Computer Science"
-  },
-  {
-    "name": "Mike Ringie",
-    "location": "Holliston, MA",
-    "image": "headshots/mringie-1.jpg",
-    "year": "Senior",
-    "major": "Molecular Biology & Biochemistry"
-  },
-  {
-    "name": "Jack Sorensen",
-    "location": "Georgetown, MA",
-    "image": "headshots/jsorensen-1.jpg",
-    "year": "Senior",
-    "major": "Hospitality & Tourism Management"
-  },
-  {
     "name": "Jared Curran",
     "location": "Plainville, MA",
     "image": "headshots/jcurran-1.jpg",
-    "year": "Junior",
+    "year": "Senior",
     "major": "Finance"
+  },
+  {
+    "name": "Will Geftaes",
+    "location": "Canton, MA",
+    "image": "headshots/wgeftaes-1.jpg",
+    "year": "Senior",
+    "major": "Finance"
+  },
+  {
+    "name": "Philip le Gassick",
+    "location": "Mattapoisett, MA",
+    "image": "headshots/plegassick-1.jpg",
+    "year": "Junior",
+    "major": "Accounting"
   },
   {
     "name": "Michael Guerrera",
     "location": "Farmington, CT",
     "image": "headshots/mguerrera-1.jpg",
-    "year": "Sophomore",
+    "year": "Junior",
     "major": "Chemistry"
   },
   {
-    "name": "Phillip le Gassick",
-    "location": "Mattapoisett, MA",
-    "image": "headshots/plegassick-1.jpg",
-    "year": "Sophomore",
+    "name": "Max Gould",
+    "location": "Haverhill, MA",
+    "image": "headshots/mgould-1.jpg",
+    "year": "Junior",
+    "major": "Finance"
+  },
+  {
+    "name": "Kyle Richman",
+    "location": "Harwich, MA",
+    "image": "headshots/krichman-1.jpg",
+    "year": "Junior",
     "major": "Accounting"
+  },
+  {
+    "name": "Ricky Gardella",
+    "location": "Rowley, MA",
+    "image": "headshots/rgardella-1.jpg",
+    "year": "Junior",
+    "major": "OIM"
   },
   {
     "name": "Markus Pierre",
     "location": "Marion, MA",
     "image": "headshots/mpierre-1.jpg",
-    "year": "Sophomore",
-    "major": "Business Management"
-  },
-  {
-    "name": "Ricky Gardella IV",
-    "location": "Rowley, MA",
-    "image": "headshots/rgardella-1.jpg",
-    "year": "Sophomore",
-    "major": "OIM"
-  },
-  {
-    "name": "James Erickson",
-    "location": "Watertown, MA",
-    "image": "headshots/jerickson-1.jpg",
-    "year": "Freshman",
-    "major": "Management"
+    "year": "Junior",
+    "major": "Finance"
   },
   {
     "name": "CJ Kivlehan",
     "location": "Hopedale, MA",
     "image": "headshots/ckivlehan-1.jpg",
-    "year": "Freshman",
+    "year": "Sophomore",
     "major": "Marketing"
+  },
+  {
+    "name": "James Erickson",
+    "location": "Watertown, MA",
+    "image": "headshots/jerickson-1.jpg",
+    "year": "Sophomore",
+    "major": "Management"
+  },
+  {
+    "name": "Gardner Porter",
+    "location": "Andover, MA",
+    "image": "headshots/gporter-1.jpg",
+    "year": "Sophomore",
+    "major": "Finance"
+  },
+  {
+    "name": "Meyer Gack",
+    "location": "Scituate, MA",
+    "image": "headshots/mgack-1.jpg",
+    "year": "Sophomore",
+    "major": "Building Construction Technology"
+  },
+  {
+    "name": "Joe Kisiel",
+    "location": "Saint Albans, MO",
+    "image": "headshots/jkisiel-1.jpg",
+    "year": "Sophomore",
+    "major": "Mechanical Engineering"
+  },
+  {
+    "name": "Vidish Kardbhajne",
+    "location": "Pune, India",
+    "image": "headshots/vkardbhajne-1.jpg",
+    "year": "Freshman",
+    "major": "Computer Science"
   }
 ]
