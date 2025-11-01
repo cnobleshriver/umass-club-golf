@@ -251,7 +251,7 @@
     "toPar": 77,
     "url": "https://scoreboard.clippd.com/tournaments/239379/scoring/team"
   },
-      {
+  {
     "name": "Mercyhurst Laker Fall Invitational (NCAA D1)",
     "course": "Lake View GC",
     "location": "North East, PA",
@@ -264,5 +264,48 @@
     "totalScore": 900,
     "toPar": 36,
     "url": "https://scoreboard.clippd.com/tournaments/236937/scoring/team"
+  },
+    {
+    "name": "Red Flash Invitational (NCAA D1)",
+    "course": "Sunnehanna Country Club",
+    "location": "Johnstown, PA",
+    "date": "Oct 6-7, 2025",
+    "startDate": "2025-10-06",
+    "endDate": "2025-10-07",
+    "finish": "9th",
+    "finishNumeric": 9,
+    "score": "875(+35)",
+    "totalScore": 875,
+    "toPar": 35,
+    "url": "https://scoreboard.clippd.com/tournaments/237140/scoring/team"
+  },
+    {
+    "name": "Crusader Invitational (NCAA D1)",
+    "course": "Worcester Country Club",
+    "location": "Worcester, MA",
+    "date": "Oct 20-21, 2025",
+    "startDate": "2025-10-20",
+    "endDate": "2025-10-21",
+    "finish": "11th",
+    "finishNumeric": 11,
+    "score": "601(+41)",
+    "totalScore": 601,
+    "toPar": 41,
+    "url": "https://scoreboard.clippd.com/tournaments/238417/scoring/team"
+  },
+  {
+    "name": "Lehigh Invitational (NCAA D1)",
+    "course": "Saucon Valley Club",
+    "location": "Bethlehem, PA",
+    "date": "Oct 25-26, 2025",
+    "startDate": "2025-10-25",
+    "endDate": "2025-10-26",
+    "finish": "11th",
+    "finishNumeric": 11,
+    "score": "632(+56)",
+    "totalScore": 632,
+    "toPar": 56,
+    "url": "https://scoreboard.clippd.com/tournaments/239033/scoring/team"
   }
+
 ]
