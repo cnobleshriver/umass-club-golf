@@ -96,5 +96,12 @@
     "image": "headshots/vkardbhajne-1.jpg",
     "year": "Freshman",
     "major": "Computer Science"
+  },
+  {
+    "name": "Brian MacIntosh",
+    "location": "Southwick, MA",
+    "image": "headshots/bmacintosh-1.jpeg",
+    "year": "Freshman",
+    "major": "Finance"
   }
 ]
