@@ -32,6 +32,8 @@
 .joinButtonContainer {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
   margin: 20px 0;
 }
 

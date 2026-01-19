@@ -1,7 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { Modal, Button } from '@mantine/core';
-import Image from 'next/image';
 import styles from './DonationModal.module.css';
 
 interface DonationModalProps {
@@ -29,13 +28,13 @@ export function DonationModal({ donationUrl }: DonationModalProps) {
       title="Support UMass Club Golf"
     >
       <div className={styles.modalContent}>
-        <Image
-          src="/umass-gives.jpg"
-          alt="UMass Gives - Support the UMass Golf team for next season"
-          width={400}
-          height={400}
-          className={styles.donationImage}
-        />
+        <p className={styles.donationText}>
+          UMass Club Golf is building a towards a Division 1 future and this
+          season is a critical step in our journey. We are raising money to
+          support our spring season and a future of longevity and success! We
+          would be extremely appreciative of your support. We hope you&apos;ll
+          consider donating, and always, thank you for your support!
+        </p>
         <Button
           component="a"
           href={donationUrl}

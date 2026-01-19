@@ -3,14 +3,14 @@ import { useState } from "react";
 import Image from "next/image";
 import { Hero } from "@/components/Hero/Hero";
 import styles from "./HomePage.module.css";
-// import { DonationModal } from "@/components/DonationModal/DonationModal";
+import { DonationModal } from "@/components/DonationModal/DonationModal";
 import { TryoutModal } from "@/components/TryoutModal/TryoutModal";
 // import { TryoutBanner } from "@/components/TryoutBanner/TryoutBanner";
 
 /* Website built by club member, Christian Noble Shriver, in 2023. */
 
 export default function HomePage() {
-  // const donationUrl = "https://umass.scalefunder.com/gday/giving-day/98035/department/105394";
+  const donationUrl = "https://minutefund.uma-foundation.org/project/44959";
   // const tryoutUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfqcRwdaZm_1pls56NkZAgkBqNAXYVcWvgoKElBXOOF_n-KpQ/viewform?fbclid=PAQ0xDSwMC-iRleHRuA2FlbQIxMQABp8rp5sS8hJ-HWpIFUKw2SDRZULvaVEd8bQK0O0YJUOaIQV1IrsBXBxe6nEiS_aem__AB5pmQFBvEVCzupBwpswg";
   
   const [modalOpened, setModalOpened] = useState(false);
@@ -24,7 +24,7 @@ export default function HomePage() {
         />
       )} */}
       <Hero />
-      {/* <DonationModal donationUrl={donationUrl} /> */}
+      <DonationModal donationUrl={donationUrl} />
       {/* <TryoutModal 
         tryoutUrl={tryoutUrl} 
         opened={modalOpened}
@@ -97,6 +97,14 @@ export default function HomePage() {
               className={styles.joinButton}
             >
               Athlete Questionnaire
+            </a>
+            <a
+              href="https://forms.gle/XLodL22ScTgm1RfSA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.joinButton}
+            >
+              Join our newsletter
             </a>
           </div>
         </div>

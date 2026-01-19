@@ -5,12 +5,11 @@
     padding: 1rem;
   }
   
-  .donationImage {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-  }
+.donationText {
+  margin: 0 0 1.5rem;
+  line-height: 1.6;
+  text-align: center;
+}
   
   .donateButton {
     background-color: #881c1c;
